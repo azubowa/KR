@@ -1,0 +1,13 @@
+E:\учеба\Технологии программирования\Куросовая работа\КР\КР\bin\Debug\netcoreapp3.1\КР.exe
+E:\учеба\Технологии программирования\Куросовая работа\КР\КР\bin\Debug\netcoreapp3.1\КР.deps.json
+E:\учеба\Технологии программирования\Куросовая работа\КР\КР\bin\Debug\netcoreapp3.1\КР.runtimeconfig.json
+E:\учеба\Технологии программирования\Куросовая работа\КР\КР\bin\Debug\netcoreapp3.1\КР.runtimeconfig.dev.json
+E:\учеба\Технологии программирования\Куросовая работа\КР\КР\bin\Debug\netcoreapp3.1\КР.dll
+E:\учеба\Технологии программирования\Куросовая работа\КР\КР\bin\Debug\netcoreapp3.1\КР.pdb
+E:\учеба\Технологии программирования\Куросовая работа\КР\КР\obj\Debug\netcoreapp3.1\КР.csprojAssemblyReference.cache
+E:\учеба\Технологии программирования\Куросовая работа\КР\КР\obj\Debug\netcoreapp3.1\КР.AssemblyInfoInputs.cache
+E:\учеба\Технологии программирования\Куросовая работа\КР\КР\obj\Debug\netcoreapp3.1\КР.AssemblyInfo.cs
+E:\учеба\Технологии программирования\Куросовая работа\КР\КР\obj\Debug\netcoreapp3.1\КР.csproj.CoreCompileInputs.cache
+E:\учеба\Технологии программирования\Куросовая работа\КР\КР\obj\Debug\netcoreapp3.1\КР.dll
+E:\учеба\Технологии программирования\Куросовая работа\КР\КР\obj\Debug\netcoreapp3.1\КР.pdb
+E:\учеба\Технологии программирования\Куросовая работа\КР\КР\obj\Debug\netcoreapp3.1\КР.genruntimeconfig.cache
