@@ -1,0 +1,16 @@
+﻿<Window x:Class="LoggingAtTheCheckpoint.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoggingAtTheCheckpoint"
+        mc:Ignorable="d"
+        Title="Ведение Журнала на проходной завода" Height="394.068" Width="632.204"
+        ResizeMode="NoResize"
+        >
+    <Grid Margin="0,0,4,-1">
+        <Button x:Name="LogEntry" Content="Записать в журнал" HorizontalAlignment="Left" Margin="185,87,0,0" VerticalAlignment="Top" Width="247" Height="61" Click="LogEntryButton_Click"/>
+        <Button x:Name="Search" Content="Поиск прошедших" HorizontalAlignment="Left" Margin="185,204,0,0" VerticalAlignment="Top" Width="247" Height="61" Click="SearchButton_Click"/>
+
+    </Grid>
+</Window>

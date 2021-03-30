@@ -1,0 +1,30 @@
+﻿<Window x:Class="LoggingAtTheCheckpoint.LogEntryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoggingAtTheCheckpoint"
+        mc:Ignorable="d"
+        x:Name="LogEntryWindows"
+        Title="Запись в журнал" Height="450" Width="1000"
+        ResizeMode="NoResize"
+        >
+    <Grid Margin="0,0,-6,-4">
+        <Button x:Name="Logging" Content="Создать запись" HorizontalAlignment="Left" Margin="429,52,0,0" VerticalAlignment="Top" Width="148" Height="34" Click="LogginingButton_Click"/>
+        <TextBox x:Name="TextDate" HorizontalAlignment="Left" Height="23" Margin="181,172,0,0" TextWrapping="Wrap" Text="Дата" VerticalAlignment="Top" Width="129" Visibility="Visible" IsReadOnly="True" Background="White"/>
+        <DatePicker x:Name="EntryDate" HorizontalAlignment="Left" Margin="181,195,0,0" VerticalAlignment="Top" Width="129" Visibility="Visible" Height="26"/>
+        <TextBox x:Name="RecordNumbertext" HorizontalAlignment="Left" Height="23" Margin="61,172,0,0" TextWrapping="Wrap" Text="Номер записи" VerticalAlignment="Top" Width="120" IsReadOnly="True" Background="White"/>
+        <TextBox x:Name="NameText" HorizontalAlignment="Left" Height="23" Margin="310,172,0,0" TextWrapping="Wrap" Text="Имя" VerticalAlignment="Top" Width="120" IsReadOnly="True" Background="White"/>
+        <TextBox x:Name="SurnameText" HorizontalAlignment="Left" Height="23" Margin="430,172,0,0" TextWrapping="Wrap" Text="Фамилия" VerticalAlignment="Top" Width="120" IsReadOnly="True" Background="White"/>
+        <TextBox x:Name="PatronymicText" HorizontalAlignment="Left" Height="23" Margin="550,172,0,0" TextWrapping="Wrap" Text="Отчество(Необязательно)" VerticalAlignment="Top" Width="149" IsReadOnly="True" Background="White"/>
+        <TextBox x:Name="DocumentText" HorizontalAlignment="Left" Height="23" Margin="699,172,0,0" TextWrapping="Wrap" Text="Вид пропуска" VerticalAlignment="Top" Width="120" IsReadOnly="True" Background="White"/>
+        <TextBox x:Name="WorkshopText" HorizontalAlignment="Left" Height="23" Margin="819,172,0,0" TextWrapping="Wrap" Text="Номер цеха" VerticalAlignment="Top" Width="120" IsReadOnly="True" Background="White"/>
+        <TextBox x:Name="RecordNumber" HorizontalAlignment="Left" Height="26" Margin="61,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+        <TextBox x:Name="Name" HorizontalAlignment="Left" Height="26" Margin="310,195,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Surname" HorizontalAlignment="Left" Height="26" Margin="430,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Patronymic" HorizontalAlignment="Left" Height="26" Margin="550,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149"/>
+        <TextBox x:Name="Document" HorizontalAlignment="Left" Height="26" Margin="699,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Workshop" HorizontalAlignment="Left" Height="26" Margin="819,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="Save" Content="Сохранить" HorizontalAlignment="Left" Margin="789,268,0,0" VerticalAlignment="Top" Width="120" Height="40" Click="SaveButton_Click"/>
+    </Grid>
+</Window>
